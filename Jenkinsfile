@@ -1,7 +1,7 @@
 node{
    stage('SCM Checkout'){
      git 'https://github.com/samuelsamits/my-app'
-    } 
+   } 
    stage('Compile-Package'){
 
       def mvnHome =  tool name: 'maven3', type: 'maven'   
